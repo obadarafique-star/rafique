@@ -1,0 +1,7 @@
+{
+  "name": "Indian Constitutional AI Legal Assistant",
+  "description": "An AI-powered chatbot providing immediate answers to queries on the Constitution of India, with an option to connect with Indian legal professionals. Users can switch between 'Normal' mode for detailed explanations and 'Emergency' mode for concise, urgent advice.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

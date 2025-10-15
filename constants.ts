@@ -1,0 +1,95 @@
+import { LawyerProfile, LegalHelpProfile } from './types';
+
+export const LAWYER_PROFILES: LawyerProfile[] = [
+  {
+    id: 1,
+    name: 'Aditi Sharma',
+    specialization: 'Fundamental Rights & Writs',
+    bio: 'A Senior Advocate with 20+ years at the Supreme Court, Aditi is a leading voice on personal liberty and freedom of expression under Articles 21 and 19.',
+    email: 'a.sharma.adv@example.com',
+    imageUrl: 'https://picsum.photos/seed/lawyer1/300/300',
+  },
+  {
+    id: 2,
+    name: 'Vikram Singh Rathore',
+    specialization: 'Centre-State Relations',
+    bio: 'Vikram specializes in federal disputes, advising state governments on matters of legislative competence, financial distribution, and inter-state relations.',
+    email: 'vs.rathore.adv@example.com',
+    imageUrl: 'https://picsum.photos/seed/lawyer2/300/300',
+  },
+  {
+    id: 3,
+    name: 'Priya Desai',
+    specialization: 'Public Interest Litigation (PIL)',
+    bio: 'Priya has dedicated her career to social justice, filing impactful PILs on issues of environmental protection, consumer rights, and electoral reforms.',
+    email: 'p.desai.adv@example.com',
+    imageUrl: 'https://picsum.photos/seed/lawyer3/300/300',
+  },
+  {
+    id: 4,
+    name: 'Arjun Menon',
+    specialization: 'Corporate & Commercial Law',
+    bio: 'An authority on the intersection of corporate governance and constitutional principles, Arjun advises on regulatory compliance and economic policies.',
+    email: 'a.menon.adv@example.com',
+    imageUrl: 'https://picsum.photos/seed/lawyer4/300/300',
+  },
+    {
+    id: 5,
+    name: 'Fatima Ansari',
+    specialization: 'Minority Rights & Personal Law',
+    bio: 'Fatima is a renowned expert on the constitutional safeguards for religious and linguistic minorities, focusing on educational and cultural rights.',
+    email: 'f.ansari.adv@example.com',
+    imageUrl: 'https://picsum.photos/seed/lawyer5/300/300',
+  },
+  {
+    id: 6,
+    name: 'Rohan Gupta',
+    specialization: 'Criminal Law & Procedure',
+    bio: 'Rohan focuses on ensuring the rights of the accused are protected under Article 20 and 22, specializing in matters of procedural fairness in criminal trials.',
+    email: 'r.gupta.adv@example.com',
+    imageUrl: 'https://picsum.photos/seed/lawyer6/300/300',
+  }
+];
+
+export const LEGAL_HELP_PROFILES: LegalHelpProfile[] = [
+  {
+    id: 1,
+    name: 'Neha Kapoor',
+    role: 'Consultant',
+    expertise: ['Startup Law', 'IP Registration'],
+    bio: 'Neha provides strategic advice to tech startups on company incorporation, intellectual property protection, and navigating Indian corporate law.',
+    email: 'n.kapoor.consult@example.com',
+    imageUrl: 'https://picsum.photos/seed/helper1/300/300',
+    rate: 3500,
+  },
+  {
+    id: 2,
+    name: 'Suresh Kumar',
+    role: 'Helper',
+    expertise: ['High Court Filing', 'Document Preparation', 'Notary Services'],
+    bio: 'Suresh is a certified paralegal who assists with the preparation and e-filing of documents for various High Courts, ensuring compliance with all procedural rules.',
+    email: 's.kumar.helper@example.com',
+    imageUrl: 'https://picsum.photos/seed/helper2/300/300',
+    rate: 2000,
+  },
+  {
+    id: 3,
+    name: 'Anjali Mehta',
+    role: 'Helper',
+    expertise: ['Legal Research', 'Case Management'],
+    bio: 'Anjali offers meticulous legal research using Indian case law databases and provides case management services for law firms and individual practitioners.',
+    email: 'a.mehta.helper@example.com',
+    imageUrl: 'https://picsum.photos/seed/helper3/300/300',
+    rate: 2500,
+  },
+  {
+    id: 4,
+    name: 'Rajiv Prasad',
+    role: 'Consultant',
+    expertise: ['Real Estate Law', 'Property Verification'],
+    bio: 'With a focus on property law in India, Rajiv consults on title searches, sale deeds, and compliance with RERA regulations.',
+    email: 'r.prasad.consult@example.com',
+    imageUrl: 'https://picsum.photos/seed/helper4/300/300',
+    rate: 3000,
+  },
+];
